@@ -225,7 +225,7 @@ fun Text(modifier: Modifier, text: Unit) {
             label = { Text(text = "Favorite") },
             selected = (selectedIndex.value == 1),
             onClick = {
-                navController.navigate(ROUTE_HOME)
+                navController.navigate(ROUTE_CONTACT)
             })
 
         BottomNavigationItem(icon = {
@@ -234,7 +234,7 @@ fun Text(modifier: Modifier, text: Unit) {
             label = { Text(text = "Profile") },
             selected = (selectedIndex.value == 2),
             onClick = {
-                navController.navigate(ROUTE_HOME)
+                navController.navigate(ROUTE_LOGIN)
             })
 
 

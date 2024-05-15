@@ -41,12 +41,12 @@ fun AppNavHost(
 
 
         composable(ROUTE_LOGIN) {
-            LoginScreen(navController)
+            LoginScreen(navController = navController)
         }
 
 
         composable(ROUTE_SIGNUP) {
-            SignupScreen(navController)
+            SignupScreen(navController = navController)
         }
 
 
